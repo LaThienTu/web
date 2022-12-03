@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://fonts.cdnfonts.com/css/great-heart" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/neo-esport" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/plaguard" rel="stylesheet">
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/plaguard');
+      :root
+{
+  --font-kolker_brush: 'Kolker Brush', cursive;
+  --font-gaming: 'NEO ESPORT', sans-serif;
+  --font-great_heart: "GREAT HEART", sans-serif;
+  --font-plaguard: "Plaguard", sans-serif;
+  --color-cyan: cyan;
+}
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 0;
+      }
+      .header {
+        width: 100%;
+    
+        background-color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      }
+      .name {
+        color: white;
+        font-family: var(--font-gaming);
+        letter-spacing: 3px;
+      } 
+      #logo {
+        width: 90px;
+        height:90px;
+      }
+      table {
+        color: white;
+        width: 100%;
+      }
+      thead {
+        background-color: #000;
+        text-align:center
+        color: white;
+      }
+      table,td, th {
+        padding: 2px 5px;
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+      td {
+        text-align:left;
+        color: black;
+      }
+      #title {
+        font-size; 36px;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        font-family: var(--font-gaming);
+        -webkit-text-stroke: 1px black;
+        color: #fff;
+        letter-spacing: 5px;
+      }
+      .choose-div {
+        background-color: #000;
+        text-align:center;
+        color: white;
+        width:100%;
+        height: auto;
+        margin-top:5px;
+        padding: 5px 5px;
+      }
+      .choose-div a {
+        background-color:#000;
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+
+      #ds {
+        border-bottom: 2px solid #fff;
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img id="logo"src="./logo.png" alt="">
+      <h1 class="name">ShootForFuns</h1>
+    </div>
+    <div class="choose-div">
+      <a id="ltd" href="./index.html">Lịch Thi Đấu</a>
+      <a id="ds"href="./list.html">Danh Sách Thành Viên</a>
+    </div>
+
+    <h1 id="title">Danh Sach</h1>
+  <table border="1">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Tên Đầy Đủ</th>
+      <th>InGame</th>
+      <th>Team</th>
+      <th>Local</th>
+      <th>Quê Quán</th>
+      <th>Tuổi</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>1</td>
+      <td>La Thiên Tứ</td>
+      <td>SFF.xLucas</td>
+      <td>SFF</td>
+      <td>Tanker</td>
+      <td>TPHCM</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Phạm Nhựt Trung</td>
+      <td>#Nhuy⁰⁸  茶</td>
+      <td>SFF</td>
+      <td>All</td>
+      <td>Cà Mau</td>
+      <td>14</td>
+    </tr> 
+    <tr>
+      <td>3</td>
+      <td>Minh Tiến</td>
+      <td>SFF  kay.!</td>
+      <td>SFF</td>
+      <td>Cover</td>
+      <td>Đồng Tháp</td>
+      <td>14</td>
+    </tr>
+    </tbody>
+  </table>
+  </body>
+</html>
